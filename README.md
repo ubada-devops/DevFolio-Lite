@@ -1,4 +1,5 @@
 # Syed Ubada's Portfolio
+# Vibe Coding
 
 Welcome to my personal portfolio website! This site showcases my skills, projects, and professional journey as a DevOps engineer and full-stack developer.
 
@@ -10,7 +11,7 @@ Welcome to my personal portfolio website! This site showcases my skills, project
 - Social/contact links (LinkedIn, WhatsApp, X, Gmail)
 
 ## 🚀 Live Demo
-[Visit the live portfolio](https://your-vercel-url.vercel.app/) <!-- Update with your actual deployed URL -->
+[Visit the live portfolio](https://devfolio-lite.vercel.app/) <!-- Update with your actual deployed URL -->
 
 ## 🛠️ Tech Stack
 - Frontend: Astro, Tailwind CSS
