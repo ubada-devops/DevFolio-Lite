@@ -1,4 +1,4 @@
-# Syed Ubada's Portfolio
+Syed Ubada's Portfolio
 # Vibe Coding
 
 Welcome to my personal portfolio website! This site showcases my skills, projects, and professional journey as a DevOps engineer and full-stack developer.
