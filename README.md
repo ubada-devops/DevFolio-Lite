@@ -30,7 +30,7 @@ Welcome to my personal portfolio website! This site showcases my skills, project
 ## 🏃‍♂️ Run Locally
 1. **Clone the repo:**
    ```sh
-   git clone https://github.com/SyedUbada19/DevFolio-Lite
+   git clone https://github.com/ubada-devops/DevFolio-Lite.git
    cd your-portfolio
    ```
 2. **Install dependencies:**
@@ -49,10 +49,10 @@ Welcome to my personal portfolio website! This site showcases my skills, project
 - For persistent visitor analytics, connect to a database or analytics service (the included visitor count is for local/demo use only).
 
 ## 📫 Contact
-- [LinkedIn](https://www.linkedin.com/in/syed-ubada)
+- [LinkedIn](https://www.linkedin.com/in/ubada-devops/)
 - [WhatsApp](https://wa.me/+917483956344)
-- [X (Twitter)](https://x.com/Iamsyedubada)
-- [Gmail](mailto:devopswithub@gmail.com)
+- [X (Twitter)]([https://x.com/Iamsyedubada](https://x.com/Ubada_DevOps))
+- [Gmail](mailto:Ubada.devops@gmail.com)
 
 ---
 
