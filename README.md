@@ -50,9 +50,9 @@ Welcome to my personal portfolio website! This site showcases my skills, project
 - For persistent visitor analytics, connect to a database or analytics service (the included visitor count is for local/demo use only).
 
 ## 📫 Contact
-- [LinkedIn](https://www.linkedin.com/in/ubada-devops/)
+- [LinkedIn](www.linkedin.com/in/ubada-devops)
 - [WhatsApp](https://wa.me/+917483956344)
-- [X (Twitter)]([https://x.com/Iamsyedubada](https://x.com/Ubada_DevOps))
+- [X (Twitter)](https://x.com/Ubada_DevOps)
 - [Gmail](mailto:Ubada.devops@gmail.com)
 
 ---
