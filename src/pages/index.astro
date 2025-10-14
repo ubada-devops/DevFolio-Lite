@@ -1,0 +1,157 @@
+---
+import Layout from "../layouts/Layout.astro"
+---
+
+<Layout title="Devfolio | Ubada's Portfolio">
+  <main class="main-div space-y-14">
+    <!-- Intro Section -->
+    <section class="section intro-section relative p-10 rounded-3xl shadow-2xl bg-gradient-to-br from-blue-900/80 to-blue-700/80 backdrop-blur-md border border-blue-400/30">
+      <div class="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-16">
+        <div class="flex-1 w-full flex flex-col items-center md:items-start">
+          <div class="absolute top-4 right-8 opacity-30 text-7xl select-none pointer-events-none">🚀</div>
+          <h1 class="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-3 text-blue-200 drop-shadow-lg text-center md:text-left whitespace-nowrap">👋 Welcome to <span class="text-blue-400">Devfolio,</span></h1>
+          <p class="text-2xl sm:text-3xl md:text-4xl mb-4 font-semibold text-white text-center">I'm <span class="text-blue-300">Syed Ubada</span>...</p>
+          <ul class="space-y-4 text-base sm:text-lg md:text-xl text-blue-100 font-medium list-none pl-0 text-center md:text-left">
+            <li class="flex items-start gap-3 justify-center md:justify-start"><span class="text-blue-400 text-2xl">💡</span> DevOps engineer & full-stack builder who loves turning wild ideas into powerful, scalable systems.</li>
+            <li class="flex items-start gap-3 justify-center md:justify-start"><span class="text-blue-400 text-2xl">🎓</span> My journey began at Presidency University, a tier-2 college in Bengaluru.</li>
+            <li class="flex items-start gap-3 justify-center md:justify-start"><span class="text-blue-400 text-2xl">🧑‍💻</span> Dived deep into DevOps, Blockchain, and Cybersecurity with a backpack full of dreams.</li>
+            <li class="flex items-start gap-3 justify-center md:justify-start"><span class="text-blue-400 text-2xl">🚀</span> Fast forward — I'm leading with mindset, not marks.</li>
+          </ul>
+        </div>
+        <div class="flex flex-col items-center">
+          <img src="/ubada.png" alt="Syed Ubada" class="w-56 h-56 sm:w-72 sm:h-72 lg:w-80 lg:h-80 object-cover rounded-full shadow-xl border-4 border-blue-400/40 flex-shrink-0 mx-auto" />
+          <a href="/portfolio" class="mt-6 px-6 py-3 bg-gradient-to-r from-blue-500 to-purple-500 text-white text-lg font-bold rounded-full shadow-lg hover:scale-105 hover:from-blue-400 hover:to-purple-400 transition-all duration-200">Know More</a>
+        </div>
+    </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills-section p-10 rounded-3xl shadow-2xl bg-gradient-to-br from-gray-800/80 to-gray-700/80 backdrop-blur-md border border-gray-400/20">
+      <h2 class="text-3xl font-bold mb-6 text-gray-200 flex items-center gap-2"><span>🛠️</span> What I bring to the table:</h2>
+      <ul class="grid grid-cols-1 md:grid-cols-2 gap-4 text-lg">
+        <li class="flex items-center gap-3 bg-gray-900/60 rounded-xl p-4 hover:scale-105 transition-transform"><span class="text-blue-400 text-2xl">⚙️</span> DevOps Automation (Jenkins, Docker, K8s)</li>
+        <li class="flex items-center gap-3 bg-gray-900/60 rounded-xl p-4 hover:scale-105 transition-transform"><span class="text-green-400 text-2xl">💻</span> Full Stack Development (MERN)</li>
+        <li class="flex items-center gap-3 bg-gray-900/60 rounded-xl p-4 hover:scale-105 transition-transform"><span class="text-yellow-400 text-2xl">☁️</span> Cloud Computing (AWS & GCP)</li>
+        <li class="flex items-center gap-3 bg-gray-900/60 rounded-xl p-4 hover:scale-105 transition-transform"><span class="text-purple-400 text-2xl">⛓️</span> Blockchain Integration & Token Design</li>
+      </ul>
+    </section>
+
+    <!-- Objective Section -->
+    <section class="section objective-section p-10 rounded-3xl shadow-2xl bg-gradient-to-br from-purple-900/80 to-purple-700/80 backdrop-blur-md border border-purple-400/20">
+      <h2 class="text-3xl font-bold mb-4 text-purple-200 flex items-center gap-2"><span>🎯</span> Objective</h2>
+      <p class="text-lg text-purple-100">Combine the power of <span class="font-bold text-purple-300">Web2 + Web3</span>, enabling users to trade, learn, earn, and grow — securely and seamlessly.</p>
+    </section>
+
+    <!-- Visitor Count Section -->
+    <section class="section visitor-section p-10 rounded-3xl shadow-2xl bg-gradient-to-br from-green-900/80 to-green-700/80 backdrop-blur-md border border-green-400/20 flex items-center justify-between">
+      <span class="text-xl font-semibold text-green-200 flex items-center gap-2">💡 Total Visitors: <span id="visitor-count" class="font-mono text-2xl text-green-100">--</span></span>
+      <span class="text-4xl opacity-20">👁️</span>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section projects-section p-10 rounded-3xl shadow-2xl bg-gradient-to-br from-indigo-900/80 to-indigo-700/80 backdrop-blur-md border border-indigo-400/20">
+      <h2 class="text-3xl font-bold mb-6 text-indigo-200 flex items-center gap-2"><span>📂</span> Check out the cool stuff I've built 🚀</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <!-- Project 1 -->
+        <div class="bg-indigo-800/60 rounded-2xl p-6 shadow-lg hover:scale-105 transition-transform border border-indigo-300/20">
+          <h3 class="text-xl font-semibold text-indigo-100 mb-2 flex items-center gap-2">
+            <span>🌐</span> Final-Year-Capstone-Project-25
+          </h3>
+          <p class="text-indigo-100 mb-2">A freelance marketplace for college students, integrating Web3 payments, smart contracts, and academic verification. Built with MERN stack and blockchain tech.</p>
+          <a href="https://github.com/Capstone1919/Final-Year-Capstone-Project-25" target="_blank" rel="noopener" class="inline-block mt-2 px-4 py-2 bg-indigo-500 text-white rounded-lg hover:bg-indigo-400 transition">View on GitHub</a>
+        </div>
+        <!-- Project 2 -->
+        <div class="bg-indigo-800/60 rounded-2xl p-6 shadow-lg hover:scale-105 transition-transform border border-indigo-300/20">
+          <h3 class="text-xl font-semibold text-indigo-100 mb-2 flex items-center gap-2">
+            <span>🌐</span> BuzzMe
+          </h3>
+          <p class="text-indigo-100 mb-2">A minimal React + Vite starter with HMR, ESLint, and modern tooling. Perfect for rapid prototyping and scalable web apps.</p>
+          <a href="https://github.com/Capstone1919/buzzme" target="_blank" rel="noopener" class="inline-block mt-2 px-4 py-2 bg-indigo-500 text-white rounded-lg hover:bg-indigo-400 transition">View on GitHub</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="flex justify-center mt-10">
+      <a href="/resume.pdf" download class="px-8 py-4 bg-gradient-to-r from-blue-500 to-purple-500 text-white text-xl font-bold rounded-full shadow-lg hover:scale-105 hover:from-blue-400 hover:to-purple-400 transition-all duration-200">
+        Download Resume
+      </a>
+    </section>
+
+    <!-- Get in Touch Text -->
+    <div class="w-full flex justify-center mt-6">
+      <span class="text-lg md:text-xl text-white font-semibold text-center bg-gradient-to-r from-blue-700/60 to-purple-700/60 px-6 py-2 rounded-lg shadow">Get in touch by clicking below</span>
+    </div>
+
+    <!-- Social/Contact Section -->
+    <section class="flex flex-col md:flex-row justify-center items-center gap-6 mt-4 mb-8">
+      <!-- LinkedIn -->
+      <a href="https://www.linkedin.com/in/syed-ubada" target="_blank" rel="noopener" class="flex items-center gap-2 px-4 py-2 bg-white/10 rounded-lg hover:bg-blue-700 transition">
+        <img src="/linkedin.svg" alt="LinkedIn" class="w-7 h-7" />
+        <span class="text-white font-medium">LinkedIn</span>
+      </a>
+      <!-- WhatsApp -->
+      <a href="https://wa.me/+917483956344" target="_blank" rel="noopener" class="flex items-center gap-2 px-4 py-2 bg-white/10 rounded-lg hover:bg-green-700 transition">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="w-7 h-7" />
+        <span class="text-white font-medium">WhatsApp</span>
+      </a>
+      <!-- X (Twitter) -->
+      <a href="https://x.com/Iamsyedubada" target="_blank" rel="noopener" class="flex items-center gap-2 px-4 py-2 bg-white/10 rounded-lg hover:bg-gray-700 transition">
+        <img src="/twitter.svg" alt="X" class="w-7 h-7" />
+        <span class="text-white font-medium">X</span>
+      </a>
+      <!-- Gmail -->
+      <a href="mailto:devopswithub@gmail.com" class="flex items-center gap-2 px-4 py-2 bg-white/10 rounded-lg hover:bg-red-700 transition">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png" alt="Gmail" class="w-7 h-7" />
+        <span class="text-white font-medium">Gmail</span>
+      </a>
+    </section>
+  </main>
+</Layout>
+
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(135deg, #0a192f 0%, #1a237e 100%);
+    color: white;
+    min-height: 100vh;
+  }
+  .main-div {
+    padding: 3rem 0;
+    font-size: large;
+    width: 100%;
+    margin: auto;
+    font-weight: 400;
+    max-width: 1100px;
+  }
+  .section {
+    transition: box-shadow 0.3s, transform 0.2s;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    border-radius: 2rem;
+    border: 1px solid rgba(255,255,255,0.08);
+  }
+  .section:not(:last-child) {
+    border-bottom: none;
+  }
+  @media screen and (max-width: 900px) {
+    .main-div {
+      width: 98%;
+      padding: 1.4rem 0;
+    }
+    .section {
+      padding: 1.2rem;
+    }
+  }
+  li {
+    padding: 0.3rem 0;
+  }
+  a {
+    color: rgb(122, 191, 255);
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+</style>
