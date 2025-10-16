@@ -46,7 +46,7 @@ Welcome to my personal portfolio website! This site showcases my skills, project
    Visit [http://localhost:3000](http://localhost:3000)
 
 ## 🌍 Deployment
-- Easily deploy to [Vercel](https://vercel.com/) or any static hosting provider.
+- Easily deploy to [Vercel](https://vercel.com/) or Railway or any static hosting provider.
 - For persistent visitor analytics, connect to a database or analytics service (the included visitor count is for local/demo use only).
 
 ## 📫 Contact
@@ -54,6 +54,7 @@ Welcome to my personal portfolio website! This site showcases my skills, project
 - [WhatsApp](https://wa.me/+917483956344)
 - [X (Twitter)](https://x.com/Ubada_DevOps)
 - [Gmail](mailto:Ubada.devops@gmail.com)
+- [Telegram](t.me/Ubada_Devops)
 
 ---
 
